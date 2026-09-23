@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Top_Level_Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>ZRX543_Keypad</Name>
+  <Identifier>32cf2223-6393-459a-9063-9c2597209d87</Identifier>
+  <Description>Gathers software elements allowing to manage a ZRX543 keypad.</Description>
+  <Packages />
+  <Types />
+  <Interfaces />
+  <Component_Types>
+    <Component_Type>
+      <Name>ZRX543_Keypad</Name>
+      <Identifier>10c15888-f70a-4647-b9b1-6ddad8c4deb1</Identifier>
+      <Description>Allows to manage a ZRX-543 keypad.</Description>
+      <Configurations />
+      <Operations>
+        <OS_Operation>
+          <Name>Initialize</Name>
+          <Identifier>a169cf1e-d6fa-4c79-b7bb-cd77e86ebf72</Identifier>
+          <Description>Operation to initialize the matrix of the keypad.</Description>
+        </OS_Operation>
+        <OS_Operation>
+          <Name>Cyclic</Name>
+          <Identifier>c10a12cf-5168-4b81-8ae8-b37cc1d4fbe7</Identifier>
+          <Description>Operation to be called cyclically (between 5 ms and 10 ms) to read the matrix keypad.</Description>
+        </OS_Operation>
+      </Operations>
+      <Provider_Ports>
+        <Provider_Port>
+          <Name>Key</Name>
+          <Identifier>96cfef0c-5dbe-4b75-999a-905aeab71110</Identifier>
+          <Description />
+          <Referenced_Interface_Id>60e15cfc-f67b-4ecd-adfd-5c79fe5f906a</Referenced_Interface_Id>
+        </Provider_Port>
+      </Provider_Ports>
+      <Requirer_Ports>
+        <Requirer_Port>
+          <Name>Pin_1_Column_4</Name>
+          <Identifier>59403243-1cbc-4600-aaa0-a40ea739cc82</Identifier>
+          <Description>Allows to manage the pin #1 (column #4) of the keypad.</Description>
+          <Referenced_Interface_Id>a330e264-839e-477e-840a-14fe8bf973d1</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_2_Column_3</Name>
+          <Identifier>529a3d68-38b6-491d-a407-f275bd7a5aee</Identifier>
+          <Description>Allows to manage the pin #2 (column #3) of the keypad.</Description>
+          <Referenced_Interface_Id>a330e264-839e-477e-840a-14fe8bf973d1</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_3_Column_2</Name>
+          <Identifier>fb3aecfd-57e9-4124-bcf6-192cd6658fb8</Identifier>
+          <Description>Allows to manage the pin #3 (column #2) of the keypad.</Description>
+          <Referenced_Interface_Id>a330e264-839e-477e-840a-14fe8bf973d1</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_4_Column_1</Name>
+          <Identifier>6f9d94ef-9ece-457c-ac63-8dbdb0a4f9d0</Identifier>
+          <Description>Allows to manage the pin #4 (column #1) of the keypad.</Description>
+          <Referenced_Interface_Id>a330e264-839e-477e-840a-14fe8bf973d1</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_5_Row_4</Name>
+          <Identifier>62b0adda-7a1c-433d-93df-185c81e27031</Identifier>
+          <Description>Allows to manage the pin #5 (row #4) of the keypad.</Description>
+          <Referenced_Interface_Id>d8db64e8-9547-4b4b-ab10-ce3984553d49</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_6_Row_3</Name>
+          <Identifier>526110cf-cbbb-4065-a72d-61988092d3b9</Identifier>
+          <Description>Allows to manage the pin #6 (row #3) of the keypad.</Description>
+          <Referenced_Interface_Id>d8db64e8-9547-4b4b-ab10-ce3984553d49</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_7_Row_2</Name>
+          <Identifier>a4b4918d-7c44-4737-991b-56cba92fe7a6</Identifier>
+          <Description>Allows to manage the pin #7 (row #2) of the keypad.</Description>
+          <Referenced_Interface_Id>d8db64e8-9547-4b4b-ab10-ce3984553d49</Referenced_Interface_Id>
+        </Requirer_Port>
+        <Requirer_Port>
+          <Name>Pin_8_Row_1</Name>
+          <Identifier>7078f76f-ab17-476d-b4d2-576f0579d4cd</Identifier>
+          <Description>Allows to manage the pin #8 (row #1) of the keypad.</Description>
+          <Referenced_Interface_Id>d8db64e8-9547-4b4b-ab10-ce3984553d49</Referenced_Interface_Id>
+        </Requirer_Port>
+      </Requirer_Ports>
+    </Component_Type>
+  </Component_Types>
+  <Compositions />
+</Top_Level_Package>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Software_Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>ZRX543_Keypad</Name>
+  <Identifier>884b844e-ef9b-4b12-ae0e-303ef0d23bff</Identifier>
+  <Description />
+  <Packages_References>
+    <Package_Reference>
+      <Last_Known_Name>ZRX543_Keypad</Last_Known_Name>
+      <Relative_Path>ZRX543_Keypad.pkgx</Relative_Path>
+      <Is_Writable>true</Is_Writable>
+    </Package_Reference>
+    <Package_Reference>
+      <Last_Known_Name>Hardware_IO_Interfaces</Last_Known_Name>
+      <Relative_Path>..\..\Hardware_IO_Interfaces\mdl\Hardware_IO_Interfaces.pkgx</Relative_Path>
+      <Is_Writable>false</Is_Writable>
+    </Package_Reference>
+    <Package_Reference>
+      <Last_Known_Name>Keystroke_Peripheral_Interfaces</Last_Known_Name>
+      <Relative_Path>..\..\Keystroke_Peripheral_Interfaces\mdl\Keystroke_Peripheral_Interfaces.pkgx</Relative_Path>
+      <Is_Writable>false</Is_Writable>
+    </Package_Reference>
+  </Packages_References>
+</Software_Project>

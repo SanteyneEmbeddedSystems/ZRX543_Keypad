@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><svg  Version="1.1"  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg"  width="1176px" height="540px">  <style>text{font-size:12px;font-family:Consolas;fill:gray;text-anchor:start;}</style>  <style>svg { background-Color: black; color: white;}</style>
+  <defs>
+  <g id="10c15888-f70a-4647-b9b1-6ddad8c4deb1_alt">
+  <defs>
+  <g id="b7e67188-4975-4207-bd33-9a8f25aff14a">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Basic_Character_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">character</text>
+  <rect x="0px" y="35px" width="230px" height="50px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Pre-defined basic data type</text>
+  <text style="font-size:12px;" x="10px" y="63px">which allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="78px">representing a character.</text>
+  </g>
+  </defs>
+  <use xlink:href="#b7e67188-4975-4207-bd33-9a8f25aff14a" transform="translate(0,0)" />
+  <defs>
+  <g id="f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Enumerated_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">E_IO_Level</text>
+  <rect x="0px" y="35px" width="230px" height="50px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data that</text>
+  <text style="font-size:12px;" x="10px" y="63px">represents the electrical level</text>
+  <text style="font-size:12px;" x="10px" y="78px">of a pin.</text>
+  <rect x="0px" y="85px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="98px">IO_LEVEL_HIGH</text>
+  <text style="font-size:12px;" x="10px" y="113px">IO_LEVEL_LOW</text>
+  </g>
+  </defs>
+  <use xlink:href="#f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26" transform="translate(250,0)" />
+  <defs>
+  <g id="60e15cfc-f67b-4ecd-adfd-5c79fe5f906a">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="115px" y="28px">Keystroke_Peripheral</text>
+  <rect x="0px" y="35px" width="230px" height="50px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Defines an operation allowing to</text>
+  <text style="font-size:12px;" x="10px" y="63px"> get data from a keystroke</text>
+  <text style="font-size:12px;" x="10px" y="78px">peripheral.</text>
+  <rect x="0px" y="85px" width="230px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="98px">+ Get_Key( OUT key:character )</text>
+  </g>
+  </defs>
+  <use xlink:href="#60e15cfc-f67b-4ecd-adfd-5c79fe5f906a" transform="translate(0,140)" />
+  <defs>
+  <g id="10c15888-f70a-4647-b9b1-6ddad8c4deb1">
+  <defs>
+  <g id="96cfef0c-5dbe-4b75-999a-905aeab71110">
+  <text style="font-size:12px;text-anchor:end;" x="166px" y="15px">Key:Keystroke_Peripheral</text>
+  <rect x="166px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="156px" y1="26px" x2="166px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <circle cx="148px" cy="26px" r="8px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  </g>
+  </defs>
+  <use xlink:href="#96cfef0c-5dbe-4b75-999a-905aeab71110" transform="translate(0,20)" />
+  <rect x="182px" y="0px" width="230px" height="35px"
+    style="fill:rgb(255,255,255);fill-opacity:0.3;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="297px" y="13px">&lt;&lt;Component_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="297px" y="28px">ZRX543_Keypad</text>
+  <rect x="182px" y="35px" width="230px" height="272px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:12px;" x="192px" y="48px">Allows to manage a ZRX-543</text>
+  <text style="font-size:12px;" x="192px" y="63px">keypad.</text>
+  <rect x="182px" y="307px" width="230px" height="20px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <rect x="182px" y="327px" width="230px" height="35px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:12px;" x="192px" y="340px">+ Initialize()</text>
+  <text style="font-size:12px;" x="192px" y="355px">+ Cyclic()</text>
+  <defs>
+  <g id="59403243-1cbc-4600-aaa0-a40ea739cc82">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_1_Column_4:Digital_Output</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#59403243-1cbc-4600-aaa0-a40ea739cc82" transform="translate(412,20)" />
+  <defs>
+  <g id="529a3d68-38b6-491d-a407-f275bd7a5aee">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_2_Column_3:Digital_Output</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#529a3d68-38b6-491d-a407-f275bd7a5aee" transform="translate(412,60)" />
+  <defs>
+  <g id="fb3aecfd-57e9-4124-bcf6-192cd6658fb8">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_3_Column_2:Digital_Output</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#fb3aecfd-57e9-4124-bcf6-192cd6658fb8" transform="translate(412,100)" />
+  <defs>
+  <g id="6f9d94ef-9ece-457c-ac63-8dbdb0a4f9d0">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_4_Column_1:Digital_Output</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#6f9d94ef-9ece-457c-ac63-8dbdb0a4f9d0" transform="translate(412,140)" />
+  <defs>
+  <g id="62b0adda-7a1c-433d-93df-185c81e27031">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_5_Row_4:Digital_Input</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#62b0adda-7a1c-433d-93df-185c81e27031" transform="translate(412,180)" />
+  <defs>
+  <g id="526110cf-cbbb-4065-a72d-61988092d3b9">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_6_Row_3:Digital_Input</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#526110cf-cbbb-4065-a72d-61988092d3b9" transform="translate(412,220)" />
+  <defs>
+  <g id="a4b4918d-7c44-4737-991b-56cba92fe7a6">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_7_Row_2:Digital_Input</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#a4b4918d-7c44-4737-991b-56cba92fe7a6" transform="translate(412,260)" />
+  <defs>
+  <g id="7078f76f-ab17-476d-b4d2-576f0579d4cd">
+  <text style="font-size:12px;" x="16px" y="15px">Pin_8_Row_1:Digital_Input</text>
+  <rect x="0px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="16px" y1="26px" x2="26px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <path d="M 34 18 A 8 8 0 0 0 34 34 " style="stroke:rgb(255,255,255);fill:none;stroke-width:1;"/>
+  </g>
+  </defs>
+  <use xlink:href="#7078f76f-ab17-476d-b4d2-576f0579d4cd" transform="translate(412,300)" />
+  </g>
+  </defs>
+  <use xlink:href="#10c15888-f70a-4647-b9b1-6ddad8c4deb1" transform="translate(250,140)" />
+  <defs>
+  <g id="a330e264-839e-477e-840a-14fe8bf973d1">
+  <rect x="0px" y="0px" width="243px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="121px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="121px" y="28px">Digital_Output</text>
+  <rect x="0px" y="35px" width="243px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Gathers operations allowing to</text>
+  <text style="font-size:12px;" x="10px" y="63px">manage a digital hardware output.</text>
+  <rect x="0px" y="70px" width="243px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="83px">+ Set_Level( IN level:E_IO_Level )</text>
+  </g>
+  </defs>
+  <use xlink:href="#a330e264-839e-477e-840a-14fe8bf973d1" transform="translate(886,140)" />
+  <defs>
+  <g id="d8db64e8-9547-4b4b-ab10-ce3984553d49">
+  <rect x="0px" y="0px" width="250px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="125px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="125px" y="28px">Digital_Input</text>
+  <rect x="0px" y="35px" width="250px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Gathers operations allowing to</text>
+  <text style="font-size:12px;" x="10px" y="63px">manage a digital hardware input.</text>
+  <rect x="0px" y="70px" width="250px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="83px">+ Get_Level( OUT level:E_IO_Level )</text>
+  </g>
+  </defs>
+  <use xlink:href="#d8db64e8-9547-4b4b-ab10-ce3984553d49" transform="translate(886,250)" />
+  </g>
+  </defs>
+
+  <use xlink:href="#10c15888-f70a-4647-b9b1-6ddad8c4deb1_alt" transform="translate(20,20)" />
+</svg>

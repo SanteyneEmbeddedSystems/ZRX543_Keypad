@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><svg  Version="1.1"  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg"  width="728px" height="520px">  <style>text{font-size:12px;font-family:Consolas;fill:gray;text-anchor:start;}</style>  <style>svg { background-Color: black; color: white;}</style>
+  <defs>
+  <g id="35865e57-e35c-48d4-a100-72230e456b6b">
+  <rect x="0px" y="0px" width="94px" height="20px"
+    style="fill:rgb(0,162,232);fill-opacity:0.5;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="13px">Basic_Types</text>
+  <rect x="0px" y="20px" width="334px" height="60px"
+    style="fill:rgb(0,162,232);fill-opacity:0.2;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="33px">This package provides pre-defined basic data</text>
+  <text style="font-size:12px;" x="10px" y="48px">types which represent the types that any</text>
+  <text style="font-size:12px;" x="10px" y="63px">micro-controller could natively handle.</text>
+  </g>
+  </defs>
+  <use xlink:href="#35865e57-e35c-48d4-a100-72230e456b6b" transform="translate(20,20)" />
+  <defs>
+  <g id="6e26c190-3b37-4812-8adb-7e48c6248d4d">
+  <rect x="0px" y="0px" width="165px" height="20px"
+    style="fill:rgb(0,162,232);fill-opacity:0.5;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="13px">Hardware_IO_Interfaces</text>
+  <rect x="0px" y="20px" width="334px" height="60px"
+    style="fill:rgb(0,162,232);fill-opacity:0.2;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="33px">Gathers software elements allowing to manage</text>
+  <text style="font-size:12px;" x="10px" y="48px">input and output pin of an hardware device.</text>
+  </g>
+  </defs>
+  <use xlink:href="#6e26c190-3b37-4812-8adb-7e48c6248d4d" transform="translate(20,220)" />
+  <defs>
+  <g id="1e763239-6608-4dbc-8f56-d4a96a7dda47">
+  <rect x="0px" y="0px" width="224px" height="20px"
+    style="fill:rgb(0,162,232);fill-opacity:0.5;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="13px">Keystroke_Peripheral_Interfaces</text>
+  <rect x="0px" y="20px" width="334px" height="60px"
+    style="fill:rgb(0,162,232);fill-opacity:0.2;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="33px">Gathers software elements allowing to deal with</text>
+  <text style="font-size:12px;" x="10px" y="48px">keystroke peripherals such as keypads or</text>
+  <text style="font-size:12px;" x="10px" y="63px">keyboards.</text>
+  </g>
+  </defs>
+  <use xlink:href="#1e763239-6608-4dbc-8f56-d4a96a7dda47" transform="translate(374,220)" />
+  <defs>
+  <g id="32cf2223-6393-459a-9063-9c2597209d87">
+  <rect x="0px" y="0px" width="106px" height="20px"
+    style="fill:rgb(0,162,232);fill-opacity:0.5;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="13px">ZRX543_Keypad</text>
+  <rect x="0px" y="20px" width="334px" height="60px"
+    style="fill:rgb(0,162,232);fill-opacity:0.2;stroke:rgb(0,162,232);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="33px">Gathers software elements allowing to manage a</text>
+  <text style="font-size:12px;" x="10px" y="48px">ZRX543 keypad.</text>
+  </g>
+  </defs>
+  <use xlink:href="#32cf2223-6393-459a-9063-9c2597209d87" transform="translate(20,420)" />
+  <marker id="open_arrow" style="overflow:visible" orient="auto">
+  <line style="stroke:gray" stroke-dasharray="1,0" x1="0px" y1="0px" x2="-10px" y2="-5px"/>
+  <line style="stroke:gray" stroke-dasharray="1,0" x1="0px" y1="0px" x2="-10px" y2="5px"/>
+  </marker>
+  <line x1="187px" y1="420px" x2="541px" y2="300px"
+    style="stroke:gray;stroke-width:1px;stroke-dasharray:4,4;marker-end:url(#open_arrow);"/>
+  <line x1="187px" y1="420px" x2="187px" y2="300px"
+    style="stroke:gray;stroke-width:1px;stroke-dasharray:4,4;marker-end:url(#open_arrow);"/>
+  <line x1="187px" y1="220px" x2="187px" y2="100px"
+    style="stroke:gray;stroke-width:1px;stroke-dasharray:4,4;marker-end:url(#open_arrow);"/>
+  <line x1="541px" y1="220px" x2="187px" y2="100px"
+    style="stroke:gray;stroke-width:1px;stroke-dasharray:4,4;marker-end:url(#open_arrow);"/>
+
+</svg>

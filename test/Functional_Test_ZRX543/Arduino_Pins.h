@@ -1,0 +1,22 @@
+#include "Arduino_Digital_Output_Pin.h"
+#include "Arduino_Digital_Input_Pin.h"
+
+extern const Arduino_Digital_Output_Pin Arduino_DOP_2;
+extern const Arduino_Digital_Output_Pin Arduino_DOP_3;
+extern const Arduino_Digital_Output_Pin Arduino_DOP_4;
+extern const Arduino_Digital_Output_Pin Arduino_DOP_5;
+
+extern const Arduino_Digital_Input_Pin Arduino_DIP_6;
+extern const Arduino_Digital_Input_Pin Arduino_DIP_7;
+extern const Arduino_Digital_Input_Pin Arduino_DIP_8;
+extern const Arduino_Digital_Input_Pin Arduino_DIP_9;
+
+extern const Digital_Output Arduino_DOP_2__Digital_Output;
+extern const Digital_Output Arduino_DOP_3__Digital_Output;
+extern const Digital_Output Arduino_DOP_4__Digital_Output;
+extern const Digital_Output Arduino_DOP_5__Digital_Output;
+
+extern const Digital_Input Arduino_DIP_6__Digital_Input;
+extern const Digital_Input Arduino_DIP_7__Digital_Input;
+extern const Digital_Input Arduino_DIP_8__Digital_Input;
+extern const Digital_Input Arduino_DIP_9__Digital_Input;
